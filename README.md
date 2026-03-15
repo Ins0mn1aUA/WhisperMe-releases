@@ -12,7 +12,6 @@ macOS menu bar app for voice-to-text using local AI.
 - Local transcription via WhisperKit (OpenAI Whisper on Apple Silicon)
 - Multiple Whisper models (tiny → large-v3-turbo)
 - 100+ languages with auto-detection
-- Translation to English
 - Transcription history (Cmd+Shift+H)
 - Audio ducking during recording
 
