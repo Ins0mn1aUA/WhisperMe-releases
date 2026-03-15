@@ -1,24 +1,33 @@
-# WhisperMe Releases
+# WhisperMe
 
 macOS menu bar app for voice-to-text using local AI.
 
 ## Download
 
-See [Releases](https://github.com/Ins0mn1aUA/WhisperMe-releases/releases) for the latest version.
+[Latest Release](https://github.com/Ins0mn1aUA/WhisperMe-releases/releases/latest)
 
 ## Features
 
-- Hold **Right Option** key to record speech
-- Automatic transcription using WhisperKit (runs locally)
-- Pastes transcribed text into any focused text field
+- Hold **Fn/Globe** key to record → text appears in any text field
+- Local transcription via WhisperKit (OpenAI Whisper on Apple Silicon)
+- Multiple Whisper models (tiny → large-v3-turbo)
+- 100+ languages with auto-detection
+- Translation to English
+- Transcription history (Cmd+Shift+H)
+- Audio ducking during recording
 
 ## Requirements
 
-- macOS 14.0+ (Sonoma)
+- macOS 14.0+
 - Apple Silicon (M1/M2/M3/M4)
 
 ## Installation
 
-1. Download the `.dmg` file from Releases
-2. Open the DMG and drag WhisperMe to Applications
-3. Launch and grant Microphone + Accessibility permissions
+1. Download `.dmg` from [Releases](https://github.com/Ins0mn1aUA/WhisperMe-releases/releases)
+2. Drag WhisperMe to Applications
+3. Grant **Microphone** and **Accessibility** permissions
+
+## Permissions
+
+- **Microphone** — for recording speech
+- **Accessibility** — for Fn key capture and text pasting
