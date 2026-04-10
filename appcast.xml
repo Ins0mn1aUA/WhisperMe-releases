@@ -6,6 +6,17 @@
         <description>Most recent updates to WhisperMe</description>
         <language>en</language>
         <item>
+            <title>Version 0.5.0</title>
+            <pubDate>Fri, 10 Apr 2026 21:14:35 +0300</pubDate>
+            <sparkle:version>0.5.0</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <enclosure
+                url="https://github.com/Ins0mn1aUA/WhisperMe-releases/releases/download/v0.5.0/WhisperMe-0.5.0.dmg"
+                sparkle:edSignature="2bscbMUyEkUPwYfMReVxcBNr2/DgynMpsoXyJ9D8LEid6MJ4k28rmK9aFpbFU785au4P4UOs0QzR4qXlWiLgDg=="
+                length="3798491"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 0.4.0</title>
             <pubDate>Fri, 27 Mar 2026 00:25:42 +0200</pubDate>
             <sparkle:version>0.4.0</sparkle:version>
